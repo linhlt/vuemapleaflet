@@ -7,6 +7,5 @@ export const findRealParent = (firstVueParent) => {
       found = true
     }
   }
-  console.log('lan dau ', firstVueParent)
   return firstVueParent
 }
